@@ -1,0 +1,4 @@
+save/*
+*.ipynb
+run.sh
+__pycache__/
