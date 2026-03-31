@@ -4,6 +4,9 @@ on:
   push:
     branches: ['*']
 
+permissions:
+  contents: read
+
 jobs:
   build-android:
     runs-on: ubuntu-latest
