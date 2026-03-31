@@ -258,7 +258,7 @@ export default function SettingsScreen() {
             <Text style={styles.aboutText}>
               📱 Works completely offline{'\n'}
               🔒 Photos never leave your device{'\n'}
-              🤖 On-device face detection &amp; alignment{'\n'}
+              🤖 On-device face detection {"&"} alignment{'\n'}
               ⏰ Daily reminders to stay consistent
             </Text>
           </View>
