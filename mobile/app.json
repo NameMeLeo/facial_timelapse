@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Facial Timelapse",
+    "slug": "facial-timelapse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.facialtimelapse.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to take facial photos for your timelapse.",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to save your timelapse photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E1A"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.facialtimelapse.app",
+      "permissions": [
+        "CAMERA",
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Facial Timelapse to access your camera for taking selfie photos."
+        }
+      ]
+    ]
+  }
+}
